@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&family=Roboto+Slab:wght@100..900&display=swap");
+* {
+  box-sizing: border-box;
+  font-family: "Roboto Slab", serif;
+}
+body{
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(25, 145, 63, 0.516);
+}
+.container{
+    width: 350px;
+    height: 430px;
+    border: 2px solid rgba(63, 61, 61, 0.484);
+    border-radius: 15px;
+    text-align: center;
+    background-color: rgba(210, 218, 225, 0.904);
+}
+.head{
+    color: green;
+}
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.input{
+    padding: 7px;
+    width: 70%;
+    background-color: rgb(216, 216, 188);
+    border-radius: 7px;
+    border: none;
+    margin-bottom: 10px;
+    border: 1px solid blanchedalmond;
+    cursor: pointer;
+}
+button{
+    border: none;
+    border-radius: 4px;
+    padding: 5px;
+    background-color: rgba(105, 90, 205, 0.893);
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgba(124, 178, 178, 0.89);
+}
+.date-and-time{
+    color: rgb(216, 66, 66);
+}
+#icon.fa-sun{
+    color: rgb(234, 142, 30);
+}
+.predict-weather{
+    color: rgb(88, 85, 85);
+}

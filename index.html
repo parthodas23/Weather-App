@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <div class="container">
+      <h1 class="head">Weather App</h1>
+      <div class="search">
+        <input type="text" class="input" placeholder="Enter City Name" />
+        <button class="getWeather">Get Weather</button>
+      </div>
+      <div class="showWeather">
+        <h2 class="city-name"></h2>
+        <p class="date-and-time"></p>
+        <i id="icon" class="fa-solid fa-2x"></i>
+        <h1 class="tempareture"></h1>
+        <p class="predict-weather"></p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
